@@ -309,12 +309,12 @@ class RecordStore(object):
     ):
 
         # convert singletons into lists if needed
-        if isinstance(aggregate, dict):
-            aggregate = [aggregate]
-        if isinstance(filter, dict):
-            filter = [filter]
-        if isinstance(sort, dict):
-            sort = [sort]
+        #if isinstance(aggregate, dict):
+            #aggregate = [aggregate]
+        #if isinstance(filter, dict):
+            #filter = [filter]
+        #if isinstance(sort, dict):
+            #sort = [sort]
 
         data = {
             "collectionId": collection_id,
